@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>materi css</title>
+    <style>
+      .awok article,
+      .awok img {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3 ease;
+      }
+
+      .awok:hover article,
+      .awok:hover img {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      span {
+        font-size: 4rem;
+        color: red;
+      }
+
+      img {
+        width: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <article>simpan kursor di bawah tulisan ini!</article>
+    <div class="awok">
+      <article><span>MUKE LU KAYA KONTOL</span></article>
+      <img src="awok.jpg" alt="" />
+    </div>
+  </body>
+</html>
